@@ -1,6 +1,7 @@
 package OOP1;
 
 public class methods {
+    //java methods can be overloaded, you can use the same names for a method but specify the parametes, one can have more parameters than the other
         private static void addnums(int a,int b){
             System.out.println("Sum: " + (a + b) + "\n");
         }
