@@ -39,5 +39,9 @@ the uses of the this keyword
     - Invoke current class method
     - Return the current class object
     - Pass an argument in the method call
+<<<<<<< HEAD
     - Pass an argument in the constructor call.
+=======
+    - Pass an argument in the constructor call
+>>>>>>> origin/main
  */
