@@ -16,6 +16,7 @@ public class Strings {
 
         //concatenate two Strings
         String fullname = name.concat(name2);
+        System.out.println("full name " + fullname);
 
         //to check the length of a String
         int leng = name2.length();
