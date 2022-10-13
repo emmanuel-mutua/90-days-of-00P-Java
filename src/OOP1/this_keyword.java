@@ -6,6 +6,9 @@ class room{
         this.room_number = room_number;
 
     }
+    public String toString(){
+        return this.room_number + "the room number";
+    }
 }
 //using it in the getter and setter
 class lecture{
@@ -24,7 +27,8 @@ public class this_keyword {
     public static void main(String[]args){
 //        usage 1
         room rm = new room(8);
-        System.out.println(" The room number is:" + rm.room_number);
+       System.out.println(rm + "\n");
+
 
 //        usage 2
         lecture obj = new lecture();
