@@ -6,7 +6,7 @@ class Parent{
         System.out.println("This is the parent class");
     }
 }
-class Child extends Parent{
+class Child extends parent {
     public void display(){
         System.out.println("This is the child class, it is inherited from the " + name);
     }
@@ -15,13 +15,12 @@ class Child extends Parent{
 public class Inheritance {
     public static void main (String[]args){
         Child emm = new Child();
-        Parent par = new Parent();
+        parent par = new parent();
         emm.name ="parent class";
         emm.display();
-        par.display();
 //        checking whether a class is an instance of the other class
         System.out.println(emm instanceof Child);
-        System.out.println(emm instanceof Parent);
+        System.out.println(emm instanceof parent);
     }
 }
 /**

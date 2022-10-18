@@ -1,8 +1,8 @@
 package OOP1;
 
-interface Parent{
+class Parent{
 }
-class child implements Parent{
+class child extends Parent {
     String num;
 
 
