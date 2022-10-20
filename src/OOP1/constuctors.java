@@ -1,4 +1,8 @@
 package OOP1;
+
+/**
+ * constructors are used to set the initial values of objects
+ */
 class Company{
      boolean result;
     String name;

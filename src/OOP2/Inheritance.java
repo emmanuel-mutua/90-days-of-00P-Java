@@ -1,7 +1,7 @@
 package OOP2;
 
 
-class Parent{
+ class Parent{
     String nam;
     public void display(){
         System.out.println("This is the parent class");
