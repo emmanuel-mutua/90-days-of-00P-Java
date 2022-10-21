@@ -4,7 +4,6 @@ abstract class par {
     protected String name = "parent class";
 
     public void displayNam() {
-
     }
 
     public void showName() {
