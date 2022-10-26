@@ -49,5 +49,9 @@ public class accessDataOfNestedClass {
         engene2.setEngene();
         System.out.println(car2.carName + "Engine type: " + engene2.getEngineType());
 
+        //the third car
+        car car3 = new car("Maside","8WD");
+        car.engene engene3 = car3.new engene();
+
     }
 }
