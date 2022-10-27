@@ -55,3 +55,6 @@ public class accessDataOfNestedClass {
 
     }
 }
+/**
+ * static class cannot access the members of  non-static class
+ */
