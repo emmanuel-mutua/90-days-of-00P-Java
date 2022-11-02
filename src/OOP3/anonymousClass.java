@@ -25,26 +25,50 @@ package OOP3;
 //    }
 //}
 //implementing an interface
-interface toBeImplemented{
-  public void show();
-    }
-    class anonymous {
-        public void createClass(){
-        toBeImplemented ob1 = new toBeImplemented() {
+//interface toBeImplemented{
+//  public void show();
+//    }
+//    class anonymous {
+//        public void createClass(){
+//        toBeImplemented ob1 = new toBeImplemented() {
+//            @Override
+//            public void show() {
+//                System.out.println("This is the anonymous class");
+//            }
+//        };
+//        ob1.show();
+//    }
+//}
+//
+//public class anonymousClass {
+//    public static void main(String[] args) {
+////        outerClass oC = new outerClass();
+////        oC.createClass();
+//        anonymous ob = new anonymous();
+//        ob.createClass();
+//    }
+//}
+
+interface name{
+    public void display();
+}
+class name1 {
+
+    public void createClass() {
+        name nm = new name() {
+
             @Override
-            public void show() {
-                System.out.println("This is the anonymous class");
+            public void display() {
+                System.out.println("this is anonymous class");
             }
         };
-        ob1.show();
+        nm.display();
+    }
+}
+class main{
+    public static void main(String[] args) {
+        name1 nm1 = new name1();
+        nm1.createClass();
     }
 }
 
-public class anonymousClass {
-    public static void main(String[] args) {
-//        outerClass oC = new outerClass();
-//        oC.createClass();
-        anonymous ob = new anonymous();
-        ob.createClass();
-    }
-}
